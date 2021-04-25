@@ -1,1 +1,42 @@
-i
+<!DOCTYPE html>
+<html lang="">
+<head>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+				<meta charset="utf-8">
+				<eta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>Length Converter</title>
+				<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body style="text-align: center;">
+				<script src="main.js"></script>
+	<select class="drpdwn" id="init-length-unit">
+	<option>Metres</option>
+		<option>Kilometres</option>
+	</select><br><label class="h04" style="width: 90%;text-align: center;">To</label>
+	<select class="drpdwn" id="final-length-unit">
+		<option>Millimeter</option>
+	<option>Centimeter</option>
+	<option>Decimeter</option>
+	<option>Foot</option>
+	<option>Meter</option>
+	<option>Decameter</option>
+		<option>Hectometer</option>
+		<option>Kilometer</option>
+	</select><br>
+	<input placeholder="Please Enter Your Magnitude Here" value="1" oninput="lengthsubmit()" type="number" id="init-number">
+	<span>
+	<div id="final-number-div" style="display: inline-block;">
+	<label class="h04" id="final-number" style="color: black">1000 mm</label>
+		</div>
+	</span>
+</body>
+</html>

@@ -1,0 +1,23 @@
+#final-number-div {
+  background-color: white;
+	height: 30px;
+	width: 90%;
+	border: 1px solid black;
+text-align: center;
+	color: white;
+	vertical-align:middle;
+}
+#init-number {
+	font-size: 25px;
+	height: 30px;
+	width: 90%;
+}
+.drpdwn {
+  width: 90%;
+	height: 30px;
+	font-size: 25px;
+}
+.h04 {
+	font-size: 25px;
+	font-weight: 400;
+}
